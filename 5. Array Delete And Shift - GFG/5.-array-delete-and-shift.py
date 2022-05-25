@@ -5,7 +5,7 @@ def deleteFromArray(arr,n,idx):
     # shifting all element sleft by 1 till idx
     for i in range(idx,n-1):
         arr[i] = arr[i+1]
-    arr[n-1] = 0
+    arr[n-1] = 0 #insert  0 at the end 
 
 #{ 
 #  Driver Code Starts
