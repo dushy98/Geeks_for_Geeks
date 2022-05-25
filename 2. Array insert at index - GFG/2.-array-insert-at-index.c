@@ -16,8 +16,10 @@
     {
         //Your code here
         
-        // shifting all elements to the right till index of element insertion
-        for(int i = sizeOfArray-1; i > index; i--){
+        // shifting all the elements to the right 
+        // can be done only from right end of the array
+        
+        for( int i = sizeOfArray - 1; i > index; i--){
             arr[i] = arr[i-1];
         }
         arr[index] = element;
