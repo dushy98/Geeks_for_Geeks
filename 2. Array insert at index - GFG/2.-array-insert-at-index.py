@@ -9,9 +9,11 @@ class Solution:
     
     def insertAtIndex(self, arr, sizeOfArray, index, element):
         #Your code here
+        # shifting all elements till index to the right by 1
         for i in range(sizeOfArray-1,index,-1):
             arr[i] = arr[i-1]
         
+        # inserting element at the given index
         arr[index] = element
  
 #{ 
