@@ -3,9 +3,9 @@
 def getByIndex(arr,n,idx):
     # return required ans
                             # check if index-out-of-bound
-    if idx > n-1:
-        return -1
-                            # 
+    if idx > n-1:           # if so return -1
+        return -1            
+                            # if in bound return element at index position
     else:
         return arr[idx]
     
