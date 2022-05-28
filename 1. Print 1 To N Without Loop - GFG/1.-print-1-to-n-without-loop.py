@@ -7,7 +7,7 @@ class Solution:
         if N == 0:
             return 
         self.printNos(N-1)
-        print(N,end =" ")
+        print(N, end = " ")
 
 #{ 
 #  Driver Code Starts
