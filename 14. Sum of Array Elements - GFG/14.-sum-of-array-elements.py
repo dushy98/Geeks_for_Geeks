@@ -2,7 +2,10 @@
 
 def sumElement(arr,n):
     #code here
-    return sum(arr)
+    sum = 0
+    for i in range(n):
+        sum = sum + arr[i]
+    return sum
 
 #{ 
 #  Driver Code Starts
