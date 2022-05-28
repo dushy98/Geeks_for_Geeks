@@ -19,10 +19,15 @@ class Solution:
         
         ##Your code here
         #If median is fraction then convert the median to integer and return
+        if N % 2 == 0:
+            return (A[(N-1)//2] + A[(N-1)//2 + 1]) // 2
+        else:
+            return A[N//2]
      
     #Function to find mean of the array elements.   
     def mean(self,A,N):
         ##Your code here
+        return sum(A)//N
 
 #{ 
 #Driver Code Starts.
