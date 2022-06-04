@@ -9,7 +9,7 @@ class Solution:
         if p == 0:              # base case..
             return 1            # anything to the power 0 is equal to 1... 
         
-        return n*self.RecursivePower(n,p-1)
+        return n*self.RecursivePower(n,p-1)  # multiply n with recusive calculation of n ^ (p-1)
 #{ 
 #  Driver Code Starts
 #Initial Template for Python 3
