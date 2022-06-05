@@ -12,7 +12,11 @@ class Solution{
     long long int floorSqrt(long long int x) 
     {
         // Your code goes here  
-        return int(sqrt(x));
+        long long int a = 1;
+        while((a*a)<=x){
+            a++;
+        }
+        return --a;
     }
 };
 
