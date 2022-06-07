@@ -4,10 +4,10 @@ class Solution:
     #Function to sort the array using bubble sort algorithm.
     def bubbleSort(self,arr, n):
         # code here
-        for i in range(n):
-            for j in range(n - i - 1):
-                if arr[j] > arr[j+1]:
-                    arr[j],arr[j+1] = arr[j+1],arr[j]
+        for i in range(n):                             #loop goes from 1st to last element 
+            for j in range(n - i - 1):                 #loop goes form 1st to last unordered element
+                if arr[j] > arr[j+1]:                  #that has bubbled till there by swappinng
+                    arr[j],arr[j+1] = arr[j+1],arr[j]  # python swap syntax
     
 
         
