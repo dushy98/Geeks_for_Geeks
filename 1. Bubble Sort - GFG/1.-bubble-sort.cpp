@@ -19,7 +19,7 @@ void swap(int *xp, int *yp)
 class Solution
 {
     public:
-    void swap(int &a, int &b){
+    void swap(int &a, int &b){ // helper function for swapping
         int temp = a;
                a = b;
                b = temp;
