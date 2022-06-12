@@ -25,7 +25,7 @@ class Solution{
     }
     //Function to sort the array using bubble sort algorithm.
     void bubbleSort(int arr[], int n){
-        // Your code here 
+        // Optimised Bubble sort for best case of O(n) when there are no swaps at all in the pass
         int swapped = 1;
         for (int pass = n-1; pass >=0 && swapped; pass--){
             swapped = 0;
