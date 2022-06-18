@@ -49,6 +49,15 @@ struct Node
 Node * deleteTail(Node *head)
 {
     //Your Code here
+    // extra code for node size less than 2
+    /*
+    if (head == NULL) return NULL;
+    if (head->next == NULL)
+        delete head;
+        return NULL;
+    
+    */
+    
     Node *curr = head;
     while(curr->next->next != NULL)
         curr = curr->next;
