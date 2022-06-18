@@ -18,27 +18,24 @@
 '''
 #Function to insert a node in the middle of the linked list.
 def insertInMid(head,node):
-    #code here
-   #code here
-   import math
-   temp=head
-   c=0
-   while temp!=None:
-       c+=1
-       temp=temp.next
-   if c%2==0:
-       index=c/2
-   else:
-       index=math.ceil(c/2) 
-   
-   c=1
-   temp=head
-   while c!=index:
-       c+=1
-       temp=temp.next
-   node.next=temp.next
-   temp.next=node
-
+    import math
+    temp = head
+    c = 0
+    while temp != None:
+        c+=1
+        temp = temp.next
+    if c%2==0:
+        index=c/2
+    else:
+        index=math.ceil(c/2)
+    
+    c=1
+    temp=head
+    while c!= index:
+        c+=1
+        temp=temp.next
+    node.next=temp.next
+    temp.next=node
 
 #{ 
 #  Driver Code Starts
