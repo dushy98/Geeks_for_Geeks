@@ -10,7 +10,7 @@ public:
         if (n > 5){
             return "Greater than 5";
         }
-        if(n < 5){
+        else if(n < 5){
             return "Less than 5";
         }
         else{
