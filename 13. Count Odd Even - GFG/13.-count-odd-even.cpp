@@ -23,10 +23,10 @@ class Solution{
         for (int i = 0; i < sizeof_array; i++ ){
             if(arr[i] % 2 == 0)
                 c_even++;
-            else
-                c_odd++;
+           // else
+            //    c_odd++;
         }
-        cout << c_odd << " " << c_even << endl;
+        cout << sizeof_array - c_even << " " << c_even << endl;
         
     }
 };
