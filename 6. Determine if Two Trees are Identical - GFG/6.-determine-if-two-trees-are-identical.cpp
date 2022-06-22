@@ -44,7 +44,7 @@ class Solution
         if(r1 == NULL and r2 == NULL){ // both trees are empty
             return true;
         }
-        if(r1 == NULL xor r2 == NULL){
+        if(r1 == NULL or r2 == NULL){
             return false;
         }
         if(r1->data != r2->data){
