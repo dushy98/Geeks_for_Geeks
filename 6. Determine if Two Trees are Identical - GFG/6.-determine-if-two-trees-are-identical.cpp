@@ -41,13 +41,13 @@ class Solution
     //Function to check if two trees are identical.
     bool isIdentical(Node *r1, Node *r2){
         //Your Code here
-        if(r1 == NULL and r2 == NULL){ // both trees are empty
+        if(r1 == NULL and r2 == NULL){ // both root are empty
             return true;
         }
-        if(r1 == NULL or r2 == NULL){
+        else if(r1 == NULL xor r2 == NULL){  // one root is empty
             return false;
         }
-        if(r1->data != r2->data){
+        else if(r1->data != r2->data){     // checing if 
             return false;
         }
         bool lh = isIdentical(r1->left,r2->left);
