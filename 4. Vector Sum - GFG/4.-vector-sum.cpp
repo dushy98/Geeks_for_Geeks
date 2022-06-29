@@ -11,12 +11,12 @@ using namespace std;
 //User function Template for C++
 
 //Complete the function
-int SumMe(vector<int> arr, int n){
+int SumMe(vector<int> v, int n){
 
 	 // Your code here
     // Use accumulate function
     int sum = 0;
-    return accumulate(arr.begin(), arr.end(), sum);
+    return accumulate(v.begin(), v.end(), sum);
     
 }
 
