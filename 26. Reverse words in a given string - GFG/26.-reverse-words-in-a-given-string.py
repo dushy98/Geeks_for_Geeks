@@ -6,6 +6,7 @@ class Solution:
     #Function to reverse words in a given string.
     def reverseWords(self,S):
         return ".".join(S.split('.')[::-1])
+        #Python 1 liner solution
 
 #{ 
 #  Driver Code Starts
