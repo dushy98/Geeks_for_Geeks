@@ -27,7 +27,7 @@ int strstr(string s, string x){
      //Your code here
      int m = s.length();
      int n = x.length();
-     for (int i = 0; i < m; i++){
+     for (int i = 0; i < m-n+1; i++){
          string y = s.substr(i,n);
          if(x==y){
              return i;
