@@ -3,9 +3,8 @@ def strstr(s,x):
     #code here
     k = len(x)
     for i in range(len(s)):
-        if s[i]  == x[0]:
-            if s[i:i+k] == x:
-                return i
+        if s[i:i+k] == x:
+            return i
     return -1
 
 #{ 
