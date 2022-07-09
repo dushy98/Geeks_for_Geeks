@@ -5,10 +5,6 @@ class Solution:
     
     #Function to reverse words in a given string.
     def reverseWords(self,S):
-        # code here
-        #S = S.split('.')
-        #S = S[::-1]
-        #S = ".".join(S)
         return ".".join(S.split('.')[::-1])
 
 #{ 
