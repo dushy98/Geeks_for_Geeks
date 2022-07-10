@@ -35,7 +35,7 @@ string encode(string src){
         count = 1;
     }   
   }
-  res += src[src.size()-1] + to_string(count);  
+  res += src[src.size()-1] + to_string(count);  // adding last char and its count to the result
   return res;
 }
   
